@@ -1,0 +1,42 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+.idea/          # IntelliJ IDEA files
+.gradle/        # Gradle files (if using Gradle)
+build/         # Build output directory
+target/        # Maven target directory
+*.iml           # IntelliJ module files
+*.iws           # IntelliJ workspace files (older versions)
+*.ipr           # IntelliJ project files (older versions)
+*.war           # If you create WAR files
+*.jar           # If you create JAR files
+/src/main/resources/application.properties  # or application.yml (Important: Keep your secrets out of Git!)
+/src/main/resources/application-local.properties # Or any environment-specific config files with secrets
